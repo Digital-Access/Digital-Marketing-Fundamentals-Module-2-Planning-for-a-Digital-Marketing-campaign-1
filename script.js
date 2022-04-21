@@ -55,38 +55,6 @@ const allQuestions = [{
         all_choices: ["Discovery Phase", "Launch Campaign", "Define Campaign Objectives", "Define Business Case", "Collaborate with Stakeholders", "Identify KPIs and metrics"],
         correct: "Launch Campaign",
     }
-}, {
-    question_string: "Which of the following elements aren’t introduced in HTML5?",
-    correct_text: "✔ Correct! <hgroup> is not included in HTML5.",
-    incorrect_text: "❌Incorrect! <hgroup> is the element not introduced in HTML5.",
-    choices: {
-        all_choices: ["<hgroup>", "<article>", "<footer>", "<input>", "Johnny"],
-        correct: "<hgroup>",
-    }
-}, {
-    question_string: "How many wheels are there on a tricycle?",
-    correct_text: "✔ Correct! Tri is a combining noun, meaning three; having three.",
-    incorrect_text: "❌Incorrect! A tricycle has three wheels.",
-    choices: {
-        all_choices: ["Four", "One", "Two", "Three"],
-        correct: "Three",
-    }
-}, {
-    question_string: 'Who is the main character of Harry Potter?',
-    correct_text: "✔ Correct! Harry is the protagonist.",
-    incorrect_text: "❌Incorrect! Harry Potter is the main character (hint: It says it in the title).",
-    choices: {
-        all_choices: ["Harry Potter", "Ron Weasley", "Hermione Granger", "Voldemort"],
-        correct: "Harry Potter",
-    }
-}, {
-    question_string: 'Whats 3X4?',
-    correct_text: "✔ Correct! 3X4 is 12.",
-    incorrect_text: "❌Incorrect! 12 is the correct answer.",
-    choices: {
-        all_choices: ["7", "11", "22", "12"],
-        correct: "12",
-    }
 }];
 
 const question = document.getElementById('question');
