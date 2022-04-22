@@ -1,6 +1,7 @@
 const titleScreen = {
     title: "Quick knowledge check!",
     image_on: true,
+    image: "https://a.storyblok.com/f/112136/373x445/175f800354/lucia-8.png",
     image_above_60: "https://a.storyblok.com/f/112136/179x150/a1995ca8a4/correct.gif",
     image_above_40: "https://a.storyblok.com/f/112136/205x150/12867bb205/sporting-hero.png",
     image_below_40: "https://a.storyblok.com/f/112136/205x150/a1d0507319/incorrect.gif",
@@ -213,6 +214,7 @@ resultCheck.addEventListener('click', checkResult)
 let n = 0;
 const loadNext = () => {
     const max = allQuestions.length - 1
+    nextBtn.style.display = 'none'
     let c = 0
     container.style.pointerEvents = 'all'
     resultCheck.style.pointerEvents = 'all'
@@ -253,8 +255,6 @@ const loadNext = () => {
         nextBtn.style.display = 'none';
         resultCheck.style.display = 'none';
         endComment.style.display = 'flex';
-
-
         tryAgain.style.display = 'flex';
         question.textContent = 'Your Score';
         endScore.style.display = 'flex';
